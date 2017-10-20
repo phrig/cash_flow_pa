@@ -1,7 +1,6 @@
 # Capistrano 3.x Vagrant stage
 # config/deploy/vagrant.rb
 
-set :stage, :vagrant
 set :rails_env, "production"
 
 vagrant_ssh_config = `vagrant ssh-config`.split("\n")[1..-1].map(&:strip).inject({}) do |m, s|
