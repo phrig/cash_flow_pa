@@ -68,6 +68,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get -y install postgresql-9.3 postgresql-client-9.3 postgresql-server-dev-9.3 tree
 		sudo -u postgres createuser -d -s -r --replication ubuntu
     sudo -u postgres bash -c "echo 'CREATE DATABASE cash_flow_pa WITH OWNER = ubuntu' | psql"
+    sudo -u postgres bash -c "echo 'CREATE DATABASE ubuntu WITH OWNER = ubuntu' | psql"
     sudo mkdir -p /rails/cash_flow_pa
     sudo chown -R ubuntu:ubuntu /rails
     sudo apt-get install -y dirmngr gnupg
