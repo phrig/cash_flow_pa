@@ -12,3 +12,4 @@
 /config/database.yml
 /config/secrets.yml
 .vagrant/*
+*.swp
