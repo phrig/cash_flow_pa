@@ -78,7 +78,7 @@ GEM
       railties (>= 3.2, < 5.2)
     erubi (1.6.1)
     ffi (1.9.18)
-    geocoder (1.4.4)
+    geocoder (1.6.1)
     geokit (1.11.0)
     geokit-rails (2.3.0)
       geokit (~> 1.5)
